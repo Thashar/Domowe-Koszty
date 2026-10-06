@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Domowe Koszty – polityka prywatności</title>
+<meta name="description" content="Polityka prywatności aplikacji Domowe Koszty na Androida: jakie dane przetwarza aplikacja i gdzie są przechowywane.">
+<style>
+  :root {
+    --bg: #f7f7f5;
+    --surface: #ffffff;
+    --text: #1d1d1f;
+    --muted: #5b5b61;
+    --line: #e2e2de;
+    --accent: #1f6f5c;
+    --accent-soft: #e5f1ed;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #141516;
+      --surface: #1d1f20;
+      --text: #ececec;
+      --muted: #a4a6a8;
+      --line: #313436;
+      --accent: #7cc9b2;
+      --accent-soft: #1f2f2a;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font: 17px/1.65 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  main {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 48px 16px 64px;
+  }
+  header { margin-bottom: 32px; }
+  .app { color: var(--accent); font-weight: 600; letter-spacing: .02em; margin: 0 0 4px; }
+  h1 { font-size: 2rem; line-height: 1.2; margin: 0 0 8px; }
+  .meta { color: var(--muted); margin: 0; font-size: .95rem; }
+  .summary {
+    background: var(--accent-soft);
+    border-radius: 12px;
+    padding: 16px 20px;
+    margin: 0 0 32px;
+  }
+  .summary p { margin: 0 0 8px; }
+  .summary ul { margin: 0; padding-left: 20px; }
+  h2 {
+    font-size: 1.2rem;
+    margin: 36px 0 8px;
+    padding-top: 20px;
+    border-top: 1px solid var(--line);
+  }
+  ul { padding-left: 22px; }
+  li { margin: 4px 0; }
+  a { color: var(--accent); }
+  code { font-size: .9em; background: var(--surface); border: 1px solid var(--line); border-radius: 4px; padding: 1px 5px; }
+  footer { margin-top: 48px; color: var(--muted); font-size: .9rem; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <p class="app">Domowe Koszty</p>
+    <h1>Polityka prywatności</h1>
+    <p class="meta">Aplikacja na Androida · obowiązuje od 6 października 2026</p>
+  </header>
+
+  <section class="summary" aria-label="W skrócie">
+    <p><strong>W skrócie</strong></p>
+    <ul>
+      <li>Twoje dane są zapisywane tylko na telefonie. Autor aplikacji nie dostaje żadnych danych i nie ma do nich dostępu.</li>
+      <li>Aplikacja nie ma reklam, analityki, śledzenia ani kont użytkowników.</li>
+      <li>Do internetu dane trafiają tylko wtedy, gdy sam połączysz aplikację z Dyskiem Google, i tylko na Twój Dysk.</li>
+      <li>Zdjęcia paragonów są odczytywane na telefonie i nie są nigdzie wysyłane.</li>
+    </ul>
+  </section>
+
+  <h2>Kto odpowiada za aplikację</h2>
+  <p>Domowe Koszty to prywatna aplikacja tworzona przez jedną osobę (Thashar) i udostępniana znajomym bez opłat. Autor nie prowadzi serwera i nie zbiera danych użytkowników, dlatego nie jest administratorem Twoich danych. Kontakt: <a href="https://github.com/Thashar/domowe-koszty/issues">zgłoszenia na GitHubie</a>.</p>
+
+  <h2>Jakie dane zapisuje aplikacja</h2>
+  <p>Wszystko, co wpiszesz lub dodasz w aplikacji:</p>
+  <ul>
+    <li>opłaty, płatności i ich historię, w tym numery kont do przelewów, jeśli je wpiszesz,</li>
+    <li>odczyty liczników mediów i cenniki,</li>
+    <li>kredyty, raty i nadpłaty,</li>
+    <li>paragony: zdjęcia, odczytany z nich tekst, sklep, datę, kwotę i gwarancję,</li>
+    <li>ustawienia, np. imię do powitania i godzinę przypomnień,</li>
+    <li>adres e-mail konta Google, jeśli połączysz Dysk Google (do pokazania, z którym kontem jest połączona aplikacja).</li>
+  </ul>
+  <p>Dane są przechowywane w prywatnej pamięci aplikacji na telefonie. Inne aplikacje nie mają do nich dostępu.</p>
+
+  <h2>Odczyt paragonów</h2>
+  <p>Tekst ze zdjęć paragonów odczytuje biblioteka Google ML Kit działająca w całości na telefonie. Zdjęcia i ich treść nie są wysyłane do internetu. ML Kit może przesyłać do Google anonimowe informacje techniczne o działaniu biblioteki (np. wersję, czas i skuteczność rozpoznawania), bez zdjęć i bez treści paragonów. Zasady opisuje <a href="https://developers.google.com/ml-kit/terms">regulamin ML Kit</a>.</p>
+  <p>Zdjęcie robisz systemową aplikacją aparatu albo wybierasz z galerii. Domowe Koszty nie mają dostępu do aparatu ani do całej galerii, tylko do zdjęcia, które wskażesz.</p>
+
+  <h2>Kopie zapasowe na Dysku Google</h2>
+  <p>Ta funkcja jest dobrowolna i działa tylko po zalogowaniu się na własne konto Google.</p>
+  <ul>
+    <li>Kopie (ręczne i automatyczne) trafiają do folderu na <strong>Twoim</strong> Dysku Google. Autor aplikacji nie ma do nich dostępu.</li>
+    <li>Aplikacja prosi o najwęższe możliwe uprawnienie (<code>drive.file</code>): widzi tylko pliki, które sama utworzyła. Nie widzi innych plików na Twoim Dysku.</li>
+    <li>Pliki na Dysku podlegają <a href="https://policies.google.com/privacy?hl=pl">polityce prywatności Google</a>.</li>
+  </ul>
+  <p>Kopię możesz też zapisać do pliku na telefonie przyciskiem „Zapisz kopię” – wtedy sam decydujesz, gdzie trafi.</p>
+
+  <h2>Udostępnianie domownikom</h2>
+  <p>Jeśli zaprosisz domownika, aplikacja zapisuje na Twoim Dysku Google plik z danymi i udostępnia go przez link. Plik jest <strong>zaszyfrowany</strong> (AES-256) osobnym kluczem, który znajduje się tylko w kodzie zaproszenia. Bez kodu treści pliku nie da się odczytać. Telefon domownika pobiera plik bezpośrednio z Dysku Google. Domownik z prawem zapisu odsyła swoje zmiany w taki sam sposób przez swój Dysk. Odebranie dostępu usuwa plik i kod przestaje działać.</p>
+
+  <h2>Przypomnienia</h2>
+  <p>Przypomnienia o płatnościach, ratach, odczycie liczników i kończących się gwarancjach są planowane na telefonie. Aplikacja prosi o zgodę na powiadomienia i odtwarza przypomnienia po ponownym uruchomieniu telefonu. Nic nie jest przy tym wysyłane do internetu.</p>
+
+  <h2>Kopia zapasowa Androida</h2>
+  <p>Jeśli masz włączoną systemową kopię zapasową Androida (Kopia zapasowa Google), system może dołączyć dane aplikacji do kopii telefonu na Twoim koncie Google. Ustawienie znajdziesz w ustawieniach telefonu.</p>
+
+  <h2>Uprawnienia aplikacji</h2>
+  <ul>
+    <li><strong>Powiadomienia</strong> – przypomnienia o płatnościach, odczytach i gwarancjach.</li>
+    <li><strong>Uruchamianie po starcie telefonu</strong> – ponowne ustawienie przypomnień.</li>
+    <li><strong>Internet i stan sieci</strong> – tylko kopie zapasowe i udostępnianie przez Dysk Google.</li>
+  </ul>
+
+  <h2>Jak usunąć dane</h2>
+  <ul>
+    <li>Dane na telefonie: odinstaluj aplikację albo wyczyść jej dane w ustawieniach Androida.</li>
+    <li>Kopie i pliki udostępniania: usuń je w aplikacji albo bezpośrednio na Dysku Google.</li>
+    <li>Dostęp do Dysku: wybierz „Wyloguj” przy Dysku Google w Ustawieniach aplikacji albo odbierz dostęp na stronie <a href="https://myaccount.google.com/connections">Aplikacje połączone z kontem Google</a>.</li>
+  </ul>
+
+  <h2>Dzieci</h2>
+  <p>Aplikacja jest przeznaczona dla dorosłych prowadzących domowy budżet i nie jest kierowana do dzieci.</p>
+
+  <h2>Zmiany polityki</h2>
+  <p>Jeśli aplikacja zacznie przetwarzać dane inaczej, ta strona zostanie zaktualizowana, a data na górze strony zmieniona.</p>
+
+  <footer>Domowe Koszty · Thashar</footer>
+</main>
+</body>
+</html>
