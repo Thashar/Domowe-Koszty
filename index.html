@@ -68,7 +68,7 @@
   <header>
     <p class="app">Domowe Koszty</p>
     <h1>Polityka prywatności</h1>
-    <p class="meta">Aplikacja na Androida · obowiązuje od 6 października 2026</p>
+    <p class="meta">Aplikacja na Androida · obowiązuje od 8 października 2026</p>
   </header>
 
   <section class="summary" aria-label="W skrócie">
@@ -77,6 +77,7 @@
       <li>Twoje dane są zapisywane tylko na telefonie. Autor aplikacji nie dostaje żadnych danych i nie ma do nich dostępu.</li>
       <li>Aplikacja nie ma reklam, analityki, śledzenia ani kont użytkowników.</li>
       <li>Do internetu dane trafiają tylko wtedy, gdy sam połączysz aplikację z Dyskiem Google, i tylko na Twój Dysk.</li>
+      <li>Przy uruchomieniu aplikacja sprawdza na GitHubie, czy jest nowa wersja. Nie wysyła przy tym żadnych Twoich danych.</li>
       <li>Zdjęcia paragonów są odczytywane na telefonie i nie są nigdzie wysyłane.</li>
     </ul>
   </section>
@@ -112,6 +113,9 @@
   <h2>Udostępnianie domownikom</h2>
   <p>Jeśli zaprosisz domownika, aplikacja zapisuje na Twoim Dysku Google plik z danymi i udostępnia go przez link. Plik jest <strong>zaszyfrowany</strong> (AES-256) osobnym kluczem, który znajduje się tylko w kodzie zaproszenia. Bez kodu treści pliku nie da się odczytać. Telefon domownika pobiera plik bezpośrednio z Dysku Google. Domownik z prawem zapisu odsyła swoje zmiany w taki sam sposób przez swój Dysk. Odebranie dostępu usuwa plik i kod przestaje działać.</p>
 
+  <h2>Aktualizacje aplikacji</h2>
+  <p>Przy każdym uruchomieniu aplikacja sprawdza w publicznym repozytorium <a href="https://github.com/Thashar/domowe-koszty/releases">Thashar/domowe-koszty</a> na GitHubie, czy jest nowsza wersja. Jeśli jest, pobiera plik instalacyjny i proponuje instalację – zawsze decydujesz Ty, a Android dodatkowo prosi o potwierdzenie. Zapytanie nie zawiera żadnych Twoich danych, tylko numer wersji aplikacji. GitHub, jak każdy serwer, widzi adres IP telefonu; zasady opisuje <a href="https://docs.github.com/pl/site-policy/privacy-policies/github-general-privacy-statement">oświadczenie o prywatności GitHuba</a>. Pobrany plik jest przechowywany w pamięci podręcznej aplikacji i usuwany po aktualizacji.</p>
+
   <h2>Przypomnienia</h2>
   <p>Przypomnienia o płatnościach, ratach, odczycie liczników i kończących się gwarancjach są planowane na telefonie. Aplikacja prosi o zgodę na powiadomienia i odtwarza przypomnienia po ponownym uruchomieniu telefonu. Nic nie jest przy tym wysyłane do internetu.</p>
 
@@ -122,7 +126,8 @@
   <ul>
     <li><strong>Powiadomienia</strong> – przypomnienia o płatnościach, odczytach i gwarancjach.</li>
     <li><strong>Uruchamianie po starcie telefonu</strong> – ponowne ustawienie przypomnień.</li>
-    <li><strong>Internet i stan sieci</strong> – tylko kopie zapasowe i udostępnianie przez Dysk Google.</li>
+    <li><strong>Internet i stan sieci</strong> – kopie zapasowe i udostępnianie przez Dysk Google oraz sprawdzanie aktualizacji na GitHubie.</li>
+    <li><strong>Instalowanie aplikacji</strong> – przekazanie pobranej nowej wersji do systemowego instalatora. Android za pierwszym razem prosi o zgodę, a przy każdej instalacji o potwierdzenie.</li>
   </ul>
 
   <h2>Jak usunąć dane</h2>
