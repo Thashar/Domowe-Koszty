@@ -34,6 +34,8 @@ Prąd, woda zimna i ciepła, ogrzewanie, gaz. Wpisujesz odczyty liczników, a ap
 liczy zużycie, prognozuje koszt miesiąca i całego roku oraz **na bieżąco pokazuje,
 czy z rozliczenia zaliczek wyjdzie zwrot, czy dopłata**. Obsługuje wymianę licznika,
 zmiany cen i zaliczki wliczone w opłatę za mieszkanie (bez liczenia ich podwójnie).
+Gdy rachunki są co miesiąc inne (np. za prąd), cenę za kWh aplikacja może wyliczyć
+**z opłaconych faktur** i zużycia z odczytów – bez przepisywania cennika.
 
 ### 🧾 Opłaty
 Czynsz, internet, telefon, przedszkole, ubezpieczenia, subskrypcje, IKE i wiele innych –
