@@ -8,8 +8,8 @@ ile wyjdzie zwrotu z zaliczek na media i ile zaoszczędzisz na nadpłacie kredyt
 
 Bez reklam, bez kont i bez wysyłania danych autorowi – wszystko zostaje na telefonie.
 
-**[⬇ Pobierz najnowszą wersję](https://github.com/Thashar/domowe-koszty/releases/latest)**
-· [Polityka prywatności](https://thashar.github.io/domowe-koszty/)
+**[⬇ Pobierz najnowszą wersję](https://github.com/Thashar/Domowe-Koszty/releases/latest)**
+· [Polityka prywatności](https://thashar.github.io/Domowe-Koszty/)
 
 <p align="center">
   <img src="zrzuty/pulpit.png" width="200" alt="Pulpit: koszty stałe miesiąca i płatności do zrobienia">
@@ -74,7 +74,7 @@ Ty decydujesz, kiedy ją zainstalować – dane zostają.
 
 ## Instalacja
 
-1. Na telefonie otwórz [stronę najnowszego wydania](https://github.com/Thashar/domowe-koszty/releases/latest)
+1. Na telefonie otwórz [stronę najnowszego wydania](https://github.com/Thashar/Domowe-Koszty/releases/latest)
    i pobierz plik `domowe-koszty-v….apk`.
 2. Otwórz pobrany plik. Android zapyta o zgodę na instalowanie aplikacji z przeglądarki
    (albo z menedżera plików) – zezwól i wróć do instalacji.
@@ -93,9 +93,9 @@ Android przy pierwszej instalacji ostrzega o nieznanym źródle.
 - Do internetu dane trafiają tylko wtedy, gdy sam połączysz Dysk Google – i tylko na Twój Dysk.
 - Przy uruchomieniu aplikacja sprawdza tu, na GitHubie, czy jest nowa wersja – bez wysyłania Twoich danych.
 
-Szczegóły: [polityka prywatności](https://thashar.github.io/domowe-koszty/).
+Szczegóły: [polityka prywatności](https://thashar.github.io/Domowe-Koszty/).
 
 ## Pytania i zgłoszenia
 
 Coś nie działa albo masz pomysł? Załóż zgłoszenie w zakładce
-[Issues](https://github.com/Thashar/domowe-koszty/issues).
+[Issues](https://github.com/Thashar/Domowe-Koszty/issues).
