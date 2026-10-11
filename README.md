@@ -62,7 +62,9 @@ dopóki nie potwierdzisz, że pieniądze wróciły na konto.
 ### 📷 Paragony i gwarancje
 Robisz zdjęcie paragonu, a aplikacja sama odczytuje sklep, datę i kwotę – na telefonie,
 bez wysyłania zdjęcia do internetu. Radzi sobie z krzywymi i obróconymi zdjęciami.
-Pilnuje terminów gwarancji i przypomina, zanim się skończą.
+Pilnuje terminów gwarancji i przypomina, zanim się skończą. Notatka (np. co kupiłeś)
+jest widoczna od razu w spisie, a paragony możesz przeglądać jako kafelki ze zdjęciami
+albo zwartą listę bez zdjęć.
 
 ### 📊 Analiza
 Koszty w czasie i ich struktura, wskaźniki na osobę i na m², zużycie rok do roku,
