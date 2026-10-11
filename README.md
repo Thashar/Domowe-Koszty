@@ -2,9 +2,10 @@
 
 **Wszystkie stałe koszty mieszkania w jednym miejscu – na Twoim telefonie.**
 
-Domowe Koszty to aplikacja na Androida, która pilnuje rachunków, liczników, kredytów
-i paragonów. Pokazuje, ile kosztuje Cię dom w tym miesiącu, co trzeba jeszcze zapłacić,
-ile wyjdzie zwrotu z zaliczek na media i ile zaoszczędzisz na nadpłacie kredytu.
+Domowe Koszty to aplikacja na Androida, która pilnuje rachunków, liczników, kredytów,
+oszczędności i paragonów. Pokazuje, ile kosztuje Cię dom w tym miesiącu, co trzeba jeszcze
+zapłacić, ile wyjdzie zwrotu z zaliczek na media, ile zaoszczędzisz na nadpłacie kredytu
+i ile zarobisz na lokacie po podatku.
 
 Bez reklam, bez kont i bez wysyłania danych autorowi – wszystko zostaje na telefonie.
 
@@ -15,6 +16,7 @@ Bez reklam, bez kont i bez wysyłania danych autorowi – wszystko zostaje na te
   <img src="zrzuty/pulpit.png" width="200" alt="Pulpit: koszty stałe miesiąca i płatności do zrobienia">
   <img src="zrzuty/media.png" width="200" alt="Media: prognoza kosztów i rozliczenie zaliczek">
   <img src="zrzuty/kredyt.png" width="200" alt="Kredyt: pozostało do spłaty, następna rata i efekt nadpłat">
+  <img src="zrzuty/oszczednosci.png" width="200" alt="Oszczędności: kwota na koniec, zysk po podatku Belki i wpłaty">
 </p>
 <p align="center">
   <img src="zrzuty/analiza.png" width="200" alt="Analiza: koszty stałe miesiąc po miesiącu i ich struktura">
@@ -50,6 +52,13 @@ Nadpłaty jednorazowe i planowane co miesiąc – także „mix”, czyli stała
 z której rosnąca część idzie na nadpłatę. **Symulator** porównuje skrócenie okresu,
 niższą ratę i mix, a aplikacja pokazuje, ile odsetek oszczędzasz.
 
+### 🐷 Oszczędności
+Lokaty, konta oszczędnościowe i obligacje. Wpisujesz kwotę wejścia, oprocentowanie
+i datę końca, a aplikacja liczy, ile będzie na koniec i jaki zysk zostanie **po podatku
+Belki**. Uwzględnia kapitalizację odsetek, regularne wpłaty (np. co miesiąc) i wpłaty
+dodatkowe w trakcie. Dzień przed końcem przypomina o lokacie – i przypomina codziennie,
+dopóki nie potwierdzisz, że pieniądze wróciły na konto.
+
 ### 📷 Paragony i gwarancje
 Robisz zdjęcie paragonu, a aplikacja sama odczytuje sklep, datę i kwotę – na telefonie,
 bez wysyłania zdjęcia do internetu. Radzi sobie z krzywymi i obróconymi zdjęciami.
@@ -66,7 +75,8 @@ zaszyfrowane (AES-256) przez Twój Dysk Google, a zmiany obu osób łączą się
 
 ### ☁️ Kopie zapasowe i przypomnienia
 Kopia do pliku albo na Dysk Google – ręcznie lub automatycznie według harmonogramu.
-Przypomnienia o płatnościach, ratach, odczycie liczników i kończących się gwarancjach.
+Przypomnienia o płatnościach, ratach, odczycie liczników, kończących się gwarancjach
+i lokatach.
 
 ### 🔄 Aktualizacje
 Aplikacja sama sprawdza, czy jest nowa wersja, pobiera ją i pokazuje, co się zmieniło.
